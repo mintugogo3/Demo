@@ -1,0 +1,1614 @@
+<!--
+
+    Illustrations - OUCH
+    Icons - Icons8
+
+-->
+<!DOCTYPE html>
+<html>
+    <head><!-- From CDN -->
+<script src="https://cdn.jsdelivr.net/npm/theaterjs/dist/theater.min.js"></script>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+        <title>Page Title</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script><script src="https://unpkg.com/jam-icons/js/jam.min.js"></script>
+        <script src="path/to/dist/eva-icons.js"></script>
+        <script src="https://unpkg.com/jam-icons/js/jam.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+<script src="https://unpkg.com/eva-icons"></script>
+<!-- choose one -->
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/gh/arnav-kr/Shikijs/dist/V1.2.1/shikiHighlighter.min.js"></script>
+
+         <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Aguafina Script|Akronim|Aldrich|Meddon|Miltonian|Monofett|Montserrat|Source Sans Pro|Vibur|Raleway' rel='stylesheet'>
+    </head>
+    <body>
+    <script>window.print=console.log;console.log=()=>{}</script>
+    <style>
+        .shiki{
+    width:80vw;
+    padding:0.7rem;
+    border-radius:5px;
+    overflow-x:auto;
+    margin:.0rem 0;
+}
+#sk1{
+    width:80vw;
+    margin-left:7vw;
+    padding:vw;
+}
+
+#full-basic{
+    display:none;
+}
+#full-icon{
+    display:none;
+}
+#full-css{
+    display:none;;
+}
+#full-plug{
+    display:none;
+}
+#pat1{
+    position:fixed;
+    width:200px;
+    height:200px;
+    background-color: #e0e0e0;
+opacity: 0.8;
+    transform:rotate(50deg);
+background-image:  radial-gradient(#487fec 0.75px, transparent 0.75px), radial-gradient(#487fec 0.76px, #e0e0e0 0.76px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
+z-index:-5;
+    right:-40px;
+    top:50vh;
+    
+    animation:an1 100s linear infinite;
+}
+@keyframes an1{
+    0%{
+        transform:rotate(50deg);
+    }
+    100%{
+        transform:rotate(410deg);
+    }
+}
+#pat2{
+    width:200px;
+    height:200px;
+    position:fixed;
+    left:-110px;
+    transform:rotate(60deg);
+    top:3vh;
+    z-index:-6;
+    background-color: #e0e0e0;
+opacity: 0.9;
+background-image: radial-gradient(#487fec 0.6000000000000001px, #e0e0e0 0.6000000000000001px);
+background-size: 12px 12px;
+    animation:an2 120s linear infinite;
+    
+}
+@keyframes an2{
+    0%{
+        transform:rotate(60deg);
+    }
+    100%{
+        transform:rotate(420deg);
+    }
+}
+.container{
+    animation:a2 0.6s;
+    animation-delay:0s;
+    
+    position:relative ;
+}
+@keyframes a2{
+    0%{
+        top:0px;
+        opacity:0;
+    }
+    40%{
+        top:50px;
+        opacity:0;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+    
+}
+#t1{
+    position:relative ;
+    animation:a3 0.8s;
+}
+@keyframes a3{
+    0%{
+        top:0px;
+        opacity:0;
+    }
+    60%{
+        top:50px;
+        opacity:0;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+    
+}
+
+  #example { font-size: 27px;
+  font-family:Montserrat; 
+  width:100vw;
+  text-align:center ;
+  height:60px;
+  }
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.actor__content--typing::after {
+  content: '|';
+  -webkit-animation: blink 500ms infinite;
+          animation: blink 500ms infinite;
+}
+body {
+    margin:0;
+    padding:0;
+    background-color:#e0e0e0;
+    font-family:Source Sans Pro;
+}
+
+.bar{
+font-size:28px;
+font-weight:bolder ;
+text-align:center;
+height:60px;
+display:flex;
+align-items:center ;
+background: #3F598C;
+background: -webkit-linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+background: -moz-linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+background: linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+-webkit-background-clip: text;
+justify-content:center ;
+-webkit-text-fill-color: transparent;
+}
+.menu{
+    background-position:;
+    background: linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+    padding:7px;
+    position:fixed;
+    border-radius:50%;
+    display:flex;
+    align-items:center ;
+    justify-content:center;
+    margin-left:3vw;
+    margin-top:8px;
+    z-index:99;
+}
+.menu ion-icon{
+    color:#e0e0e0;
+    font-size:29px;
+}
+.load1 {
+  display: ;
+  width:100vw;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:99999999999999;
+}
+
+.l2 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
+.l3 {
+  background: linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+}
+.load {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transform:scale(1.5);
+}
+
+.loader-01:before,
+.loader-01:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 100em;
+}
+.loader-01:before {
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  box-shadow: inset 0px 0px 0px 1px #FFFFFF;
+}
+.loader-01:after {
+    width: 34px;
+    height: 34px;
+    margin-left: -19px;
+    margin-top: -19px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-left-color: transparent;
+    box-shadow: inset 0px 0px 0px 1px #FFFFFF;
+    animation: loader-01 1s infinite linear;
+}
+
+@keyframes loader-01 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.lap{
+    width:100vw;
+    display:flex;
+    justify-content:center ;
+    align-items:center ;
+    position:relative ;
+    animation:a1 0.6s;
+}
+@keyframes a1{
+    0%{
+        top:50px;
+        opacity:0;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+}
+.lap img{
+    width:70vw;
+}
+.text{
+    width:86vw;
+    margin-left:7vw;
+    color:grey;
+    margin-top:14px;
+}
+.question{
+    width:100vw;
+    text-align:center;
+    font-size:25px;
+    font-family:Montserrat;
+    background: #3F598C;
+background: -webkit-linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+background: -moz-linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+background: linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+-webkit-background-clip: text;
+justify-content:center ;
+-webkit-text-fill-color: transparent;
+
+}
+
+.q1 img{
+    width:70vw;
+    margin-left:15vw;
+    margin-top:15px;
+}
+.head1{
+    margin-left:7vw;
+    font-family:Montserrat;
+    margin-top:5px;
+    font-size:22px;
+}
+.s1{
+    display:flex;
+    justify-content:center ;
+    align-items:center ;
+}
+.start{
+    background: linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+    width:auto;
+    height:auto;
+    padding:9px;
+    border-radius:3px;
+    color:white;
+    padding-left:17px;
+    padding-right:17px;
+}
+.bottom{
+    position:fixed;
+    bottom:0;
+    width:100vw;
+    padding-top:2px;
+    height:54px;
+    background: linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+    display:flex;
+    justify-content:space-around;
+    align-items:center ;
+    z-index:9999;
+}
+.bottom img{
+    width:30px;
+    height:30px;
+}
+
+#icon{
+    filter:brightness(60%);
+}
+#plug{
+    filter:brightness(60%);
+}
+#basic{
+    filter:brightness(60%);
+}
+#css{
+    filter:brightness(60%);
+}
+#home{
+    transform:scale(1.2);
+    
+}
+.strip{
+    display:flex;
+    align-items:center ;
+    margin-bottom:-5px;
+    }
+.strip img{
+    width:100px;
+    height:100px;
+    box-shadow:0.4px 0.4px 12px 1.4px #9E9E9E;
+    margin-left:7vw;
+    border-radius:22px;
+}
+.name{
+    font-family:Montserrat;
+    margin-left:4vw;
+}
+.name b{
+    font-size:23px;
+}
+.name a{
+     background: #3F598C;
+    background: -webkit-linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+    background: -moz-linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+    background: linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+    -webkit-background-clip: text;
+    justify-content:center ;
+    -webkit-text-fill-color: transparent;
+    text-decoration:underline ;
+    font-size:20px;
+}
+.name u{
+    font-size:16px;
+    font-family:Source Sans Pro;
+}
+.str{
+    display:flex;
+    width:100vw;
+    height:50px;
+    align-items:center ;
+    justify-content:space-around;
+    font-size:24px;
+    color:grey;
+    margin-top:-8px;
+}
+.str img{
+    width:29px;
+    height:29px;
+}
+.str span{
+    font-size:27px;
+}
+.ico{
+    font-size:21px;
+    line-height:30px;
+}
+body::-webkit-scrollbar {
+ width: 6px;
+ height: 6px;
+ background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+ background: #616161;
+}
+body::-webkit-scrollbar-thumb:hover{
+ background: #3d3d3d;
+}
+body::-webkit-scrollbar-track{
+ background:white;
+}
+body *::-webkit-scrollbar {
+ width: 5px;
+ height: 5px;
+}
+body *::-webkit-scrollbar-thumb {
+ background:  #30BAD9;
+ border-radius: 5px;
+}
+body *::-webkit-scrollbar-thumb:hover{
+ background: #07b8a0;
+}
+.htm{
+    font-weight:bolder;
+    font-family:Montserrat;
+    margin-top:14px;
+}
+.cs{
+    font-weight:bolder ;
+    font-family:Montserrat;
+}
+.ht{
+    font-weight:boder;
+    margin-left:7vw;
+    font-family:Montserrat;
+    font-weight:bolder;
+    color:grey;
+    margin-bottom:10px;
+}
+#p1{
+    position:relative ;
+    animation:a1 0.6s;
+}
+#p2{
+    position:relative ;
+    animation:a2 0.6s;
+}
+#p3{
+    position:relative ;
+    animation:a3 0.8s;
+}
+#p4{
+    position:relative ;
+    animation:a1 0.6s;
+}
+#p5{
+    position:relative ;
+    animation:a2 0.6s;
+}
+#p6{
+    position:relative ;
+    animation:a3 0.8s;
+}
+#menu{
+    position:fixed ;
+    top:0px;
+    z-index:999;
+    font-family:Montserrat;
+    display:none;
+    backdrop-filter:blur(20px);
+}
+#menu div{
+    width:100vw;
+    height:50px;
+    display:flex;
+    align-items:center ;
+    padding-left:5vw;
+    box-shadow: inset 0 0 0 300px rgba(255,255,255,0.35);
+    color:black;
+    font-size:17px;
+}
+
+#homee{
+    animation-delay:0.2s;
+    border-left:5px solid #30BAD9;
+    padding-left:calc(5vw - 5px);
+}
+#types{
+    animation-delay:0.3s;
+}
+#privacy{
+    animation-delay:0.4s;
+}
+#use{
+    animation-delay:0.5s;
+}
+#us{
+    animation-delay:0.60s;
+    box-shadow:5px 5px 8px rgba(0,0,0,0.35);
+    
+}
+#menu #on{
+    font-size:20px;
+    align-items:center ;
+    line-height:20px;
+    font-weight:bolder ;
+    display:flex;
+    justify-content:space-between;
+    padding-left:0vw;
+    
+    animation-delay:0.05s;
+    color:black;
+}
+#menu #on ion-icon{
+    font-size:25px;
+    margin-top:-6px;
+    
+}
+#homee:hover, #types:hover, #use:hover, #us:hover, #privacy:hover{
+    filter:brightness(80%);
+}
+#pp{
+    line-height:50px;
+    width:70px;
+    font-size:24px;
+    text-align:center  ;
+    
+    
+}
+#menu .aoo:hover{
+    filter:brightness(100%);
+}
+
+#xz{
+    margin-right:6vw;
+}
+#clo{
+    font-size:35px;
+    height:50px;
+    box-shadow:inset 0 0 0 300px rgba(255,255,255,0.35);
+    overflow:hidden ;
+    display:flex;
+    justify-content:center ;
+    align-items:center ;
+       
+}
+#full{
+    display:none;
+}
+
+    </style>
+      <div id="full">
+    <div id="pat1"></div>
+    <div id="pat2"></div>
+    <div class="menu" onclick="show()">
+              <ion-icon name="menu"></ion-icon>
+                </div>
+        <div class="bar">
+         WebdeX
+            </div>
+            <div id="full-home">
+            <div class="lap">
+                <img src="https://i.ibb.co/RTxWFzn/3d-flame-290.png" alt="3d-flame-290" border="0">
+            </div>
+        
+              <div class="container">
+ 
+  <div id="example"></div>
+</div>
+            <div class="text" id="t1">
+                Are you a front end developer on a tight deadline,or perhaps a novice who's looking for the perfect tools? Whatever the answer may be, we've got something for everyone :)
+            </div>
+
+<br><br><br>
+        <div class="question">
+            Why Use Our Services
+            
+        </div>
+        <div class="q1">
+            <img src="https://i.ibb.co/z7R1SxV/3d-flame-workflow.png" alt="3d-flame-workflow" border="0">
+            <div class="head1">Saves a heck lot of time</div>
+            <div class="text">We all know how time consuming a big web project could be.To top it up,We have to be creative or it won't work out well.The various tools and websites provided here cut down the time needed to complete the work drastically So that you can concentrate on the more important parts rather than worry for petty stuff.</div>
+        </div>
+        <br><br>
+        <div class="q1">
+            <img src="https://i.ibb.co/JjH5v4G/e9a1ebeb-e70b-41c0-9c4e-4981f33b8e7e.png" alt="e9a1ebeb-e70b-41c0-9c4e-4981f33b8e7e" border="0">
+            <div class="head1">Gain a ton of experience</div>
+            <div class="text">Are you a  beginner or want to learn Web? Well, you are just at the right place.We have novice-friendly tools to expert level stuff right at your fingertips.Start Now and smash that "New Code" button :)</div>
+        </div>
+        
+    
+        <br><br><br>
+        <div class="question">What We Provide</div>
+        <div class="q1">
+        <img src="https://i.ibb.co/d2PHvh1/3d-flame-302.png" alt="3d-flame-302" border="0">
+            <div class="head1">
+                    Start from the Basics</div>
+                
+
+            <div class="text">If you want to start from square one, novice-friendly websites like w3schools and such really are your cup of tea.They will help you get started in no time</div>
+            
+        </div>
+        <br><br>
+        <div class="q1">
+        <img src="https://i.ibb.co/fDxBMyN/3d-flame-office-workers-waiting-7.png" alt="3d-flame-office-workers-waiting-7" border="0">
+        <div class="head1">Save some Time</div>
+        <div class="text">For those of us looking to cut some slack and save some time to avoid the deat-..We mean deadline, gradient picker and shadow generator have got you covered</div>
+        </div>
+        <br><br>
+        <div class="q1">
+            <img src="https://i.ibb.co/ggvT3sv/55ee1905-2ff6-4d31-aac6-dc19e6b16c15.png" alt="55ee1905-2ff6-4d31-aac6-dc19e6b16c15" border="0">
+            <div class="head1">
+                Design Complex Webpages
+
+            </div>
+            <div class="text">We have got some pretty neat stuff that will give your creativity a boost like various plugins and frameworks.So what are you still waiting around for ?</div>
+        </div>
+        <br><br>
+        <div class="s1">
+        <div class="start">
+            Lets get started
+        </div>
+        </div>
+        <br>
+        </div>
+       
+        <div id="full-basic">
+        <br>
+        <div id="p1">
+        <div class="head1">Start From Basics</div>
+        <div class="text">
+            If you are new to web and want to learn it and build a webpage then no better time to start than Now! These website will help you get started in no time :)
+        </div>
+        </div>
+        <br><br>
+        <div class="strip" id="p2">
+            <div>
+                <img src="https://i.ibb.co/sVm4VrJ/download.png" alt="download" border="0">
+            </div>
+            <div class="name">
+                <b>Coursera</b>
+                <br>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.coursera.org/in&ved=2ahUKEwiRk5zRooXyAhVywTgGHYbyCfQQFjAAegQIExAC&usg=AOvVaw20UOD3pBOk_BXeGGE4ysXs"><u>Visit Website</u></a>
+            </div>
+        </div>
+            <div class="text" id="p3">
+                Coursera Inc. is an American massive open online course provider founded in 2012 by Stanford University computer science professors Andrew Ng and Daphne Koller.Start Web with Coursera Now !
+            </div>
+            <br><br>
+             <div class="strip">
+            <div>
+               <img src="https://i.ibb.co/KjJ5wwQ/images-2.png" alt="images-2" border="0">
+
+            </div>
+            <div class="name">
+                <b>Udemy</b>
+                <br>
+                <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi8lM7hooXyAhWOBXIKHeziC8EYABADGgJzZg&ae=2&ohost=www.google.com&cid=CAESQOD23dn0M9T74tV3WPFALWs__Aa19pUgNQMh3zMtTckVIUEUTxtWr6TxGdbvKWGLo6bpMGGfuFxpgkz7lLAJp8Y&sig=AOD64_2hLdbJMn27Z7Bthipt6CTtSSle7A&q&adurl&ved=2ahUKEwihysfhooXyAhUCzzgGHQzyCzkQ0Qx6BAgEEAE"><u>Visit Website</u></a>
+            </div>
+        </div>
+            <div class="text">
+                Shop thousands of high-quality on-demand online courses. Start learning today. Find the right instructor for you. Choose from many topics, skill levels, and languages. Go check it out :)
+            </div>
+            <br><br>
+             <div class="strip">
+            <div>
+               <img src="https://i.ibb.co/mTZrN3q/images-2021-07-28-T121542-915.jpg" alt="images-2021-07-28-T121542-915" border="0">
+
+            </div>
+            <div class="name">
+                <b>w3schools</b>
+                <br>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.w3schools.com/&ved=2ahUKEwjHubX0ooXyAhXJzTgGHWNiAe8QFjAAegQIDhAC&usg=AOvVaw3Z63kcF6aawsbVZrfSzalJ"><u>Visit Website</u></a>
+            </div>
+        </div>
+            <div class="text">
+                Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java and many more.You will find the A-Z of web development here.
+            </div>
+            <br><br>
+             <div class="strip">
+            <div>
+                <img src="https://i.ibb.co/y8hcTxk/download-7.jpg" alt="download-7" border="0">
+            </div>
+            <div class="name">
+                <b>CSS tricks</b>
+                <br>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://css-tricks.com/&ved=2ahUKEwiCyd3-ooXyAhX-xTgGHS5mANsQFjAAegQIBRAC&usg=AOvVaw1WPU1ql1LbwJkd503pC1fl"><u>Visit Website</u></a>
+            </div>
+        </div>
+            <div class="text">
+                 CSS-Tricks is really about building websites and all that entails, mostly from a front-end perspective. They really have some cool 'css tricks' out there. Start Now.
+            </div>
+<br><br>
+ <div class="strip">
+            <div>
+                 <img src="https://i.ibb.co/Lt041r8/download-1.png" alt="download-1" border="0">
+            </div>
+            <div class="name">
+                <b>Geeks for Geeks</b>
+                <br>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.geeksforgeeks.org/&ved=2ahUKEwiYr4KLo4XyAhVywzgGHXdmBPUQFjAAegQIBRAC&usg=AOvVaw1dl_KozKUK3hHWc8sda1Zw"><u>Visit Website</u></a>
+            </div>
+        </div>
+            <div class="text">
+               A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles.They will really help you build the backbone of your website
+            </div>
+           
+           <br>
+            <br>
+        </div>
+        <!-- 
+       
+
+
+-->
+        <div id="full-icon">
+        <br>
+        <div id="p1">
+            <div class="head1">
+                Add some icons
+            </div>
+            <div class="text">
+                We all spend quite a lot of time finding the correct icon pack for our website. Worry not, we have some less known ( excluded fontawesome and such because everyone knows about them ) but beautiful icon packs:
+            </div>
+            </div>
+            <br><br>
+             <div class="strip" id="p2">
+            <div>
+               <img src="https://i.ibb.co/Sm2T3JD/images-3.png" alt="images-3" border="0">
+            </div>
+            <div class="name">
+                <b>Ionicons</b>
+                <br>
+                <a href="https://ionic.io/ionicons"><u>Visit Website</u></a>
+            </div>
+        </div>
+            <div class="text" id="p3">
+                 Ionicons is among the most beautiful icons out there.They also have a large collection of icons from which you can choose easily.
+             <div class="htm">CDN</div>
+                 <div class="shiki-target" data-language="html">&lt;script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js">&lt;/script></div>
+                 <br>
+                 <div class="cs">HTML</div>
+                  <div class="shiki-target" data-language="html">&lt;ion-icon name="star">&lt;/ion-icon></div>     
+                 
+                 <span class="ico">Icons:</span>
+                 </div>
+                 <div class="str">
+                     <ion-icon name="menu"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="play"></ion-icon>
+                     <ion-icon name="home"></ion-icon>
+                     <ion-icon name="settings"></ion-icon>
+                 </div>
+            <br><br>
+            <div class="strip">
+            <div>
+               <img src="https://i.ibb.co/Dgg19tp/download-2.png" alt="download-2" border="0">
+            </div>
+            <div class="name">
+                <b>Icons8</b>
+                <br>
+                <a href="https://icons8.com/line-awesome/howto"><u>Visit Website</u></a>
+            </div>
+        </div>
+            <div class="text">
+                 We really Prefer icons8 over all other icon packs because it has EVERYTHING - literally EVERYTHING icon-realted and there are countless styles of icons available in PNG,SVG and icon font.
+         <div class="htm">CDN</div>
+                 <div class="shiki-target" data-language="html">&lt;link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"></div>
+                 <br>
+                 <div class="cs">HTML</div>
+                  <div class="shiki-target" data-language="html">&lt;i class="las la-bell">&lt;/i>
+</div>         
+                 
+                 <span class="ico">Icons:</span>
+                 </div>
+                 <div class="str">
+                     <img src="https://img.icons8.com/fluent/96/000000/download.png"/> 
+                     <img src="https://img.icons8.com/fluent/96/000000/play-property.png"/>
+                       <img src="https://img.icons8.com/fluent/48/000000/good-quality.png"/>
+                       <img src="https://img.icons8.com/fluent/96/000000/like.png"/>
+                       <img src="https://img.icons8.com/fluent/240/000000/delete-sign.png"/>
+                 </div>
+                 <br><br>
+                  <div class="strip">
+            <div>
+                <img src="https://i.ibb.co/Nsn9mK2/download-3.png" alt="download-3" border="0">
+   </div>
+            <div class="name">
+                <b>Eva Icons</b>
+                <br>
+                <a href="https://akveo.github.io/eva-icons/#/"><u>Visit Website</u></a>
+            </div>
+        </div>
+            <div class="text">
+                Eva Icons are a bunch of exquisitely crafted icons.We highly recommend.Check out its github page and documentaion.
+                 
+                <div class="htm">CDN</div>
+                 <div class="shiki-target" data-language="html">&lt;script src="https://unpkg.com/eva-icons"&gt;&lt;/script&gt;</div>
+                 <br>
+                 <div class="cs">HTML</div>
+                  <div class="shiki-target" data-language="html">&lt;i data-eva="trash-2-outline">&lt;/i> </div> 
+                  <br>
+                  <div class="cs">JS</div>
+                  <div class="shiki-target" data-language="js">eva.replace()</div> 
+                 <span class="ico">Icons:</span>
+                 </div>
+                 <div class="str" style="color:grey;font-size:22px">
+                     <i data-eva="trash-2-outline" data-eva-fill="grey"></i> 
+                     <i data-eva="wifi-outline" data-eva-fill="grey"></i>
+                    <i data-eva="shopping-cart-outline" data-eva-fill="grey"></i>
+                     
+                    <i data-eva="share-outline" data-eva-fill="grey"></i>
+                    <i data-eva="shield-outline" data-eva-fill="grey"></i>
+                   
+                     <script>
+                eva.replace();
+            </script>
+                    
+                       
+                 </div>
+                 <br><br>
+                  <div class="strip">
+            <div>
+                <img src="https://i.ibb.co/Ks0vMN0/images-4.png" alt="images-4" border="0">
+   </div>
+            <div class="name">
+                <b>Feather Icons</b>
+                <br>
+                <a href="https://feathericons.com/"><u>Visit Website</u></a>
+            </div>
+        </div>
+            <div class="text">
+                 This is like an earlier version of Eva icons but this has its own quirks.It doesn't need extra attributes and the icons are picture perfect. Add them in your project now.
+    <div class="htm">CDN</div>
+                 <div class="shiki-target" data-language="html">&lt;script src="https://unpkg.com/feather-icons">&lt;/script></div>
+                 <br>
+                 <div class="cs">HTML</div>
+                  <div class="shiki-target" data-language="html"> &lt;i data-feather="activity">&lt;/i></div>              
+                 <br>
+                
+                  <div class="cs">JS</div>
+                  <div class="shiki-target" data-language="js">feather.replace()</div>
+                  <span class="ico">Icons:</span>
+                 </div>
+                 <div class="str">
+                    <i data-feather="activity"></i>
+                       <i data-feather="anchor"></i>
+                         <i data-feather="archive"></i>
+                           <i data-feather="star"></i>
+                             <i data-feather="battery-charging"></i>
+                            <script>
+                    feather.replace()
+                </script>
+                 </div>
+                 <br><br>
+                  <div class="strip">
+            <div>
+               <img src="https://i.ibb.co/BnGKfnS/20210728-153242.jpg" alt="20210728-153242" border="0">
+
+   </div>
+            <div class="name">
+                <b>JAM Icons</b>
+                <br>
+                <a href="https://jam-icons.com/"><u>Visit Website</u></a>
+            </div>
+        </div>
+            <div class="text">
+                This one of the easiest usable icon packs available.Its a collection of diligently crafted icons which are available in SVG too.
+                 
+                 <div class="htm">CDN</div>
+                 <div class="shiki-target" data-language="html">&lt;link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css"&gt;</div>
+                 <br>
+                 <div class="cs">HTML</div>
+                  <div class="shiki-target" data-language="html">&lt;span class="jam jam-backpack"&gt;&lt;/span&gt;</div>
+                <span class="ico">Icons:</span>
+                 </div>
+                 <div class="str">
+                    <span class="jam jam-backpack"></span>
+                    <span class="jam jam-camera"></span>
+                    <span class="jam jam-box"></span>
+                    <span class="jam jam-bottle"></span>
+                    <span class="jam jam-activity"></span>
+                 </div>
+                 <br><br>
+        </div>
+        <div id="full-css">
+        <br>
+        <div id="p1">
+            <div class="head1">
+                Beautify your Webpage
+            </div>
+            <div class="text">
+                Now that we have learnt the basics and added some icons, lets start beautifying our website. The following mentioned tools will do the tedious tasks in a jiffy.
+            </div>
+            </div>
+            <!--
+           
+
+
+-->
+
+  <br>
+        <br>
+         <div class="strip" id="p2">
+            <div>
+          <img src="https://i.ibb.co/N7Tq3Gp/images-2021-08-01-T145629-527.jpg" alt="images-2021-08-01-T145629-527" border="0">
+            </div>
+            <div class="name">
+                <b>Switch Maker</b>
+                <br>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://proto.io/freebies/onoff/&ved=2ahUKEwjp0se0mZLyAhVEwzgGHQrQDSsQFjAAegQIAxAC&usg=AOvVaw3V7bfy0jCBgKxI0FtbhbAe"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text" id="p3">
+            Well, Lets start with the most handy one, toggle/switch maker.Just customize your switch in the editor and copy the css code.Hands down to this one :O
+        </div><br><br>
+              <div class="strip">
+            <div>
+               <img src="https://i.ibb.co/sRP1ych/images-2021-07-31-T104642-828.jpg" alt="images-2021-07-31-T104642-828" border="0">
+            </div>
+            
+            <div class="name">
+                <b>Colour Picker</b>
+                <br>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.w3schools.com/colors/colors_picker.asp&ved=2ahUKEwiy8OjImZLyAhWhoekKHYBdBigQFjAAegQIBRAC&usg=AOvVaw1DM38l4l8ms47aSj9V3KA"><u>Visit Website</u></a>
+            </div>
+            </div>
+            <div class="text">Takes a lot of time to choose up a color theme for your website? Hop on because this color picker will solve that problem within seconds</div>
+        
+        <br><br>
+          <div class="strip">
+            <div style="border-radius: 22px;
+background: #e0e0e0;
+box-shadow:  20px 20px 94px #bebebe,
+             -20px -20px 94px #ffffff;
+             width:140px;
+             height:100px;
+margin-left:7vw;
+margin-right:">
+            
+            </div>
+            <div class="name">
+                <b>Neumorphism Generator</b>
+                <br>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://neumorphism.io/&ved=2ahUKEwii4qXQmZLyAhVIumMGHasEBA4QFjAAegQIAxAC&usg=AOvVaw3ndDNXp6Wmu06YxmnnnVHO"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+            Try this new awesome style of UI in the market. This neumorphism generator makes that a piece of cake.Its also really easy to use and offers versatile options.
+        </div>
+        <br>
+        <br>
+         <div class="strip">
+            <div>
+            <img src="https://i.ibb.co/B27KM4k/images-5.png" alt="images-5" border="0">
+            </div>
+            <div class="name">
+                <b>Clip-Path Generator</b>
+                <br>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://bennettfeely.com/clippy/&ved=2ahUKEwiJpIDxmZLyAhVNumMGHaBRBigQFjAAegQIAxAC&usg=AOvVaw1SYbAu9Xhne5xed0kTOQ5R"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+            Clip paths are used a lot in shaping the UI of a website.Here's a website to make things easier:
+        </div>
+        
+         <br>
+        <br>
+         <div class="strip">
+            <div>
+            <img src="https://i.ibb.co/FYjnzVQ/download-5.png" alt="download-5" border="0">
+            </div>
+            <div class="name">
+                <b>Undraw Illustrations</b>
+                <br>
+                
+                <a href="https://undraw.co/illustrations"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+            Add some illustrations to develop your UI further. Undraw has some really cool options that you might want to check out.
+        </div>
+        <br>
+        <br>
+         <div class="strip" >
+            <div style="box-shadow:0.4px 0.4px 12px 1.4px #9E9E9E;
+            margin-left:7vw;
+            border-radius:22px;
+            width:100px;
+            background:#e0e0e0">
+            <img src="https://i.ibb.co/B27KM4k/images-5.png" alt="images-5" border="0" style="opacity:0">
+            </div>
+            <div class="name">
+                <b>Box-Shadow Generator</b>
+                <br>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://cssgenerator.org/box-shadow-css-generator.html&ved=2ahUKEwiLuL30mpLyAhUE7HMBHUzHAeAQFjABegQICBAC&usg=AOvVaw142RTzngiDkNW8lwy_eKhL"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+            You may think - "Why this?" but wait , surely you noticed, creating effects with box-shadows can be pretty tiring.So here's a set of pre-made box-shadow effects with custom generator.
+        </div>
+        <br>
+        <br>
+        <div class="strip" >
+            <div style="box-shadow:0.4px 0.4px 12px 1.4px #9E9E9E;
+            background: linear-gradient(to right, #3F598C 0%, #30BAD9 100%);
+            margin-left:7vw;
+            border-radius:22px;
+            width:100px;">
+            <img src="https://i.ibb.co/B27KM4k/images-5.png" alt="images-5" border="0" style="opacity:0">
+            </div>
+            <div class="name">
+                <b>Gradient Generator</b>
+                <br>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://cssgradient.io/&ved=2ahUKEwicpa7amZLyAhW_zDgGHfqeCXEQFjAAegQIAxAC&usg=AOvVaw3xKYUAGnHrskpXWOkmfP0X"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+            Stuck on choosing gradients? Well, Guess what,(you already know),we're here to help you out :)
+        </div>
+          <br>
+        <br>
+         <div class="strip" >
+            <div>
+          <img src="https://i.ibb.co/TLrrLKP/images-2021-08-01-T144434-347.jpg" alt="images-2021-08-01-T144434-347" border="0" style=" box-shadow:0.4px 0.4px 12px 1.4px #9E9E9E;">
+            </div>
+            <div class="name">
+                <b>Image-colour Picker</b>
+                <br>
+                <a href="https://color.adobe.com/create/image"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+            Want to use the same colour as that of a picture.Well guess what(you already guessed correctly), this tool will pick the desired colour and give you it's hex code.
+        </div>
+        <br>
+        <br><br>
+        <div class="head1">
+            Add some Animations
+        </div>
+        <div class="text">Add some fluid - smooth animations to complement your UI.However, the use of animations should be wise.</div>
+        <br>
+        <br>
+         <div class="strip" >
+            <div>
+        <img src="https://i.ibb.co/W5NPBQd/20210801-170721.jpg" alt="20210801-170721" border="0">
+            </div>
+            <div class="name">
+                <b>Animate.css</b>
+                <br>
+                <a href="https://animate.style/"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+          Well, this library has got some lucid animations in its stock.It has a large number of animations too. Use it now :)
+        </div>
+        <br>
+            <div class="ht">CDN</div>
+            <div class="shiki-target" data-language="html" id="sk1">&lthead>
+  &lt;link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+&lt;/head></div>
+            <br>
+            <div class="ht">HTML</div>
+            <div class="shiki-target" data-language="html" id="sk1">&lt;h1 class="animate__animated animate__bounce">An animated element&lt;/h1>
+</div>
+            
+        <br>
+        <br>
+        <br>
+        <div class="head1">Add prefixes</div>
+        <div class="text">Done with your styling? Now lets make it compatible with most browsers by adding vendor prefixes :)</div>
+        <br><br>
+        <div class="strip" >
+            <div>
+           <img src="https://i.ibb.co/b5vCvyJ/autoprefixer-logo.png" alt="autoprefixer-logo" border="0" style="background:#e0e0e0">
+            </div>
+            <div class="name">
+                <b>Auto-prefixer</b>
+                <br>
+                <a href="https://autoprefixer.github.io/"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+            Auto-prefixer is one of the leading websites for pre-fixing CSS.Just paste your code copy the prefixed one.
+        </div>
+        <br>
+        <div class="ht">Before Prefixing</div>
+        <div class="sk">
+        <div class="shiki-target" data-language="css" id="sk1">.example {
+    display: grid;
+    transition: all .5s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, black);
+}</div>
+
+</div>
+            <br>
+            <div class="ht">After Prefixing</div>
+            <div class="shiki-target" data-language="css" theme="material-theme-darker" id="sk1">.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}</div>
+        <br>
+        <br>
+        
+        </div>
+        
+        <!-- 
+        
+
+
+
+
+-->
+        <div id="full-plug">
+        <br>
+        <div id="p4">
+        <div class="head1">Add a backbone</div>
+        <div class="text">Now that we have completed beautifying your webpage, let's add some javascript- that which holds your website togather.These plugins will make it quicker and easier. </div>
+        </div>
+            <br>
+        <br>
+         <div class="strip" id="p5">
+            <div>
+     <img src="https://i.ibb.co/G3wYmm3/4943681c-56fd-40ed-84ed-ed5539dac3fc.jpg" alt="4943681c-56fd-40ed-84ed-ed5539dac3fc" border="0">
+            </div>
+            <div class="name">
+                <b>Lax.js</b>
+                <br>
+                <a href="https://github.com/alexfoxy/lax.js"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text" id="p6">
+          Want to add some buttery page scroll animations to your website? Lax.js' got ya cover'd.
+        </div>
+        <br>
+        <br>
+         <div class="strip" >
+            <div>
+        <img src="https://i.ibb.co/0Btdbnt/images-8.png" alt="20210801-170721" border="0">
+            </div>
+            <div class="name">
+                <b>Scene.js</b>
+                <br>
+                <a href="https://github.com/daybrush/scenejs"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+          Thinking 'bout adding more complicated animations? Scene.js- a CSS and Js timeline based animation library is here to help.
+        </div>
+           <br>
+        <br>
+         <div class="strip" >
+            <div>
+        <img src="https://i.ibb.co/hfKQhNr/download-4.png" alt="download-4" border="0">
+            </div>
+            <div class="name">
+                <b>Creepyface</b>
+                <br>
+                <a href="https://creepyface.io/"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+          Planning something different? Use Creepyface - a Javascript library that makes your face "look" at the cursor, based on position.
+        </div>
+        <br>
+        <br>
+         <div class="strip" >
+            <div>
+       <img src="https://i.ibb.co/QPZ56Tt/download-6.png" alt="download-6" border="0">
+            </div>
+            <div class="name">
+                <b>Alertism.js</b>
+                <br>
+                <a href="https://code.sololearn.com/WxvT30Psiaqz/?ref=app"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+          Use this custom alert library by one of the sololearners to increase the appeal of your website .
+        </div>
+        <br>
+        <br>
+         <div class="strip" >
+            <div>
+       <img src="https://i.ibb.co/Ny0S477/images-2021-08-02-T092142-234.jpg" alt="images-2021-08-02-T092142-234" border="0">
+
+            </div>
+            <div class="name">
+                <b>Full Screen Slider</b>
+                <br>
+                <a href="https://github.com/ykob/fullscreen-slider"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+        This one controls page sections and enables navigation via mouse wheel and touch events.
+        </div>
+                <br>
+        <br>
+         <div class="strip" >
+            <div>
+      <img src="https://i.ibb.co/pdhpb06/images-2021-08-02-T092237-804.jpg" alt="images-2021-08-02-T092237-804" border="0">
+            </div>
+            <div class="name">
+                <b>Chart.xkcd</b>
+                <br>
+                <a href="https://github.com/timqian/chart.xkcd"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+          In case you want to show statistics on your webpage , this plugin along with it's hand drawn charts would be the best option.
+        </div><br>
+        <br>
+         <div class="strip" >
+            <div>
+        <img src="https://i.ibb.co/YDTSRYG/images-2021-08-04-T085304-995.jpg" alt="images-2021-08-04-T085304-995" border="0">
+            </div>
+            <div class="name">
+                <b>AOS</b>
+                <br>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://michalsnik.github.io/aos/&ved=2ahUKEwiG2q6wtZbyAhWKIbcAHTVGBWsQFnoECAMQAg&usg=AOvVaw1uYEaDn-FOG9NDw2SMwTWQ"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+          Animations on scroll? You've got AOS library to take care of that ;)
+        </div><br>
+        
+        
+    
+        <br>
+         <div class="strip" >
+            <div>
+        <img src="https://i.ibb.co/nL593q2/images-2021-08-02-T092957-038.jpg" alt="images-2021-08-02-T092957-038" border="0">
+            </div>
+            <div class="name">
+                <b>Bideo.js</b>
+                <br>
+                <a href="https://rishabhp.github.io/bideo.js/"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+          Try out something different.Use a video as a background to give an awesoumè look to your website.
+        </div>
+         <div class="strip" >
+            <div>
+       <img src="https://i.ibb.co/RycSPx0/images-9.png" alt="images-9" border="0">
+
+            </div>
+            <div class="name">
+                <b>Flatpickr</b>
+                <br>
+                <a href="https://chmln.github.io/flatpickr/"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+          Written in vanilla JavaScript, flatpickr is lightweight date, time-picker and calendar solution for your website.
+
+
+        </div><br>
+        <br>
+         <div class="strip" >
+            <div>
+        <img src="https://i.ibb.co/ySxVYgt/images-2021-08-02-T093646-660.jpg" alt="images-2021-08-02-T093646-660" border="0">
+            </div>
+            <div class="name">
+                <b>Leaflet.js</b>
+                <br>
+                <a href="https://leafletjs.com/"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+          Leaflet.Js is a javascript library for adding interactive maps to your websites. Check it out now.
+        </div>
+        <br>
+        <br>
+         <div class="strip" >
+            <div>
+       <img src="https://i.ibb.co/svKCDZY/images-2021-08-02-T130243-476.jpg" alt="images-2021-08-02-T092142-234" border="0">
+
+            </div>
+            <div class="name">
+                <b>Shiki Highlighter Js</b>
+                <br>
+                <a href="https://github.com/arnav-kr/shikijs"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+        Want to highlight a block of code on your page? Well, here's one tool from sololearn that does so with style.
+        </div>
+        <br><br><br>
+        <div class="head1">
+            Prevent Plagiarism
+        </div>
+        <div class="text">All done with your website? Prevent copying of your source code by these tools. (Remember , this is optional)</div>
+        
+        <br><br>
+        <div class="strip" >
+            <div>
+        <img src="https://i.ibb.co/80TRprk/images-10.png" alt="images-10" border="0">
+            </div>
+            <div class="name">
+                <b>Javascript Obfuscator</b>
+                <br>
+                <a href="https://javascriptobfuscator.com/Javascript-Obfuscator.aspx"><u>Visit Website</u></a>
+            </div>
+        </div>
+        <div class="text">
+           Prevent your Javascript code from being copied by using this website/tool to make it unreadable even though it will work flawless :)
+        </div>
+        <br>
+        <div class="ht">Before Obfuscating</div>
+        <div class="sk">
+        <div class="shiki-target" data-language="js" id="sk1">function NewObject(prefix)
+{
+    var count=0;
+    this.SayHello=function(msg)
+    {
+          count++;
+          alert(prefix+msg);
+    }
+    this.GetCount=function()
+    {
+          return count;
+    }
+}
+var obj=new NewObject("Message : ");
+obj.SayHello("You are welcome.");
+                        </div>
+
+</div>
+            <br>
+            <div class="ht">After Obfuscating</div>
+            <div class="shiki-target" data-language="js" theme="material-theme-darker" id="sk1">var _0x2532=["\x53\x61\x79\x48\x65\x6C
+\x6C<br>
+\x6F","\x47\x65\x74\x43\x6F\x75\x6E
+\x74","\x4D
+\x65\x73\x73\x61\x67\x65\x20\x3A<br>
+\x20","\x59\x6F
+\x75\x20\x61\x72\x65\x20\x77\x65\x6C
+\x63\x6F\x6D\x65\x2E"];
+function NewObject(_0x4aaex2){var 
+_0x4aaex3=0;this[_0x2532[0]]= 
+<br>function(_0x4aaex4){_0x4aaex3+
++;alert(_0x4aaex2+ 
+<br>_0x4aaex4)};this[_0x2532[1]]= 
+<br>function(){return _0x4aaex3}}var obj= new 
+<br>NewObject(_0x2532[2]);obj.SayHello(_0x2532[3])</div>
+<br><br>
+        </div>
+        
+        
+
+<script src="dist/theater.min.js"></script>
+<script src="dist/theater.min.js"></script>
+<script>
+  var theater = theaterJS();
+  theater.
+on('type:start, erase:start', function () {
+  theater.getCurrentActor().$element.classList.add('actor__content--typing');
+}).
+on('type:end, erase:end', function () {
+  theater.getCurrentActor().$element.classList.remove('actor__content--typing');
+});
+
+  theater.
+addActor('example', { speed: 0.7, accuracy: 0.7 }).
+addScene('example: ', 600).
+addScene('example:Hey there', 1400).
+addScene('example:A Frontend Developer?', 2300).
+addScene('example:Looking for the perfect tools?', 2900).
+addScene('example:Well, We have got you covered!', 3600).addScene(theater.replay.bind(theater));
+</script>
+        <br>
+        
+        
+       <div id="menu">
+        <div  class="animate__animated animate__fadeInDown ao" id="on">
+            <div class="aoo" style="">
+        &nbsp;WebdeX </div>
+      <span class="jam jam-close" onclick="hide()" id="clo"></span>
+        </div>
+            <div class="animate__animated animate__fadeInDown" id="homee" onclick="home1()">Home</div>
+            <div class="animate__animated animate__fadeInDown" id="types" onclick="basic1()">Basics</div>
+            <div class="animate__animated animate__fadeInDown" id="privacy" onclick="icon1()">Icons</div>
+            <div class="animate__animated animate__fadeInDown" id="use" onclick="css1()">CSS Tools</div>
+            <div class="animate__animated animate__fadeInDown" id="us" onclick="plug1()">Plugins</div>
+        </div>
+        
+        
+        
+        
+        <div class="bottom">
+            
+            <div id="home" onclick="home1()">
+                <img src="https://img.icons8.com/office/480/000000/home--v1.png"/>
+            </div>
+            <div id="basic" onclick="basic1()">
+                <img src="https://img.icons8.com/office/80/000000/abc.png"/>
+            </div>
+            <div id="icon" onclick="icon1()">
+                <img src="https://img.icons8.com/office/80/000000/medium-icons.png"/>
+            </div>
+            <div id="css" onclick="css1()">
+                <img src="https://img.icons8.com/office/80/000000/fantasy.png"/>
+            </div>
+            <div id="plug" onclick="plug1()">
+                <img src="https://img.icons8.com/office/80/000000/electrical.png"/>
+            </div>
+        </div>
+        <br><br>
+        </div>
+         <div class="load1" id="l">
+  <div class="l2 l3">
+    <div class="load loader-01"></div>
+  </div>
+  <script>
+      alert(`HELP me to HELP others
+
+If you have any helpful websites/libraries/Plugins then please inform me, I would be delighted to add it here.`)
+document.addEventListener('DOMContentLoaded', () => {
+    Shiki.highlightAll();
+});
+window.onload=function start(){
+
+b=document.getElementById("full-basic");
+h=document.getElementById("full-home");
+i=document.getElementById("full-icon");
+c=document.getElementById("full-css");
+p=document.getElementById("full-plug");
+document.getElementById("l").style.display="none";
+document.getElementById("full").style.display="block";
+}
+function home1(){
+    home=document.getElementById("home");
+    home.style.transform="scale(1.2)";
+    home.style.filter="brightness(100%)";
+    basic=document.getElementById("basic")
+    basic.style.transform="scale(1)";
+    basic.style.filter="brightness(60%)";
+    icon=document.getElementById("icon");
+    icon.style.transform="scale(1)";
+    icon.style.filter="brightness(60%)";
+    css=document.getElementById("css");
+    css.style.transform="scale(1)";
+    css.style.filter="brightness(60%)";
+    plug=document.getElementById("plug");
+    plug.style.transform="scale(1)";
+    plug.style.filter="brightness(60%)";
+    h.style.display="block";
+    b.style.display="none";
+    i.style.display="none";
+    c.style.display="none";
+    p.style.display="none";
+    document.body.scrollTop=0;
+    window.scrollTo(0, 0);
+}
+function basic1(){
+    home=document.getElementById("home");
+    home.style.transform="scale(1)";
+    home.style.filter="brightness(60%)";
+    basic=document.getElementById("basic")
+    basic.style.transform="scale(1.2)";
+    basic.style.filter="brightness(100%)";
+    icon=document.getElementById("icon");
+    icon.style.transform="scale(1)";
+    icon.style.filter="brightness(60%)";
+    css=document.getElementById("css");
+    css.style.transform="scale(1)";
+    css.style.filter="brightness(60%)";
+    plug=document.getElementById("plug");
+    plug.style.transform="scale(1)";
+    plug.style.filter="brightness(60%)";
+    h.style.display="none";
+    b.style.display="block";
+    i.style.display="none";
+    c.style.display="none";
+    p.style.display="none";
+    document.body.scrollTop=0;
+    window.scrollTo(0, 0);
+}
+function icon1(){
+    home=document.getElementById("home");
+    home.style.transform="scale(1)";
+    home.style.filter="brightness(60%)";
+    basic=document.getElementById("basic")
+    basic.style.transform="scale(1)";
+    basic.style.filter="brightness(60%)";
+    icon=document.getElementById("icon");
+    icon.style.transform="scale(1.2)";
+    icon.style.filter="brightness(100%)";
+    css=document.getElementById("css");
+    css.style.transform="scale(1)";
+    css.style.filter="brightness(60%)";
+    plug=document.getElementById("plug");
+    plug.style.transform="scale(1)";
+    plug.style.filter="brightness(60%)";
+    h.style.display="none";
+    b.style.display="none";
+    i.style.display="block";
+    c.style.display="none";
+    p.style.display="none";
+    document.body.scrollTop=0;
+    window.scrollTo(0, 0);
+}
+function css1(){
+    home=document.getElementById("home");
+    home.style.transform="scale(1)";
+    home.style.filter="brightness(60%)";
+    basic=document.getElementById("basic")
+    basic.style.transform="scale(1)";
+    basic.style.filter="brightness(60%)";
+    icon=document.getElementById("icon");
+    icon.style.transform="scale(1)";
+    icon.style.filter="brightness(60%)";
+    css=document.getElementById("css");
+    css.style.transform="scale(1.2)";
+    css.style.filter="brightness(100%)";
+    plug=document.getElementById("plug");
+    plug.style.transform="scale(1)";
+    plug.style.filter="brightness(60%)";
+    h.style.display="none";
+    b.style.display="none";
+    i.style.display="none";
+    c.style.display="block";
+    p.style.display="none";
+    document.body.scrollTop=0;
+    window.scrollTo(0, 0);
+}
+function plug1(){
+    home=document.getElementById("home");
+    home.style.transform="scale(1)";
+    home.style.filter="brightness(60%)";
+    basic=document.getElementById("basic")
+    basic.style.transform="scale(1)";
+    basic.style.filter="brightness(60%)";
+    icon=document.getElementById("icon");
+    icon.style.transform="scale(1)";
+    icon.style.filter="brightness(60%)";
+    css=document.getElementById("css");
+    css.style.transform="scale(1)";
+    css.style.filter="brightness(60%)";
+    plug=document.getElementById("plug");
+    plug.style.transform="scale(1.2)";
+    plug.style.filter="brightness(100%)";
+    h.style.display="none";
+    b.style.display="none";
+    i.style.display="none";
+    c.style.display="none";
+    p.style.display="block";
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop=0;
+}
+
+
+
+
+function show(){
+    document.getElementById("menu").style.display="block";
+}
+
+function hide(){
+    document.getElementById("menu").style.display="none";
+}
+  </script>
+    
+    </body>
+</html>
